@@ -1,0 +1,200 @@
+body {
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    box-shadow: 0 0 4px #0000003e;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+header .logo {
+    width: 130px;
+    height: auto;
+}
+.nav-link {
+    color: #363f4d;
+    font-size: 18px;
+}
+.nav-link:hover {
+    color: #78a206;
+}
+.slider-1 {
+    padding: 30px 0;
+    background: url(./assets/1_1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 180px;
+}
+.about-banner {
+    padding: 30px 0;
+    background: url(./assets/2_1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 180px;
+}
+.slider-2 {
+    padding: 30px 0;
+    background: url(./assets/1_2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 180px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: transparent !important;
+}
+.hero-section img {
+    width: 100%;
+    transition: all 0.7s;
+}
+.hero-section img:hover {
+    transform: scale(1.1);
+}
+.banner img {
+    width: 100%;
+    transition: all 0.7s;
+}
+.banner img:hover {
+    transform: scale(1.1);
+}
+.cart button:hover {
+    background-color: #78a206 !important;
+}
+.cart button:hover svg {
+    fill: #fff;
+}
+.card {
+    position: relative;
+    border: 0 !important;
+}
+.card:hover {
+    box-shadow: 0 0 5px #0000003e;
+}
+.cart-section {
+    position: absolute;
+    box-shadow: 0 2px 5px #00000042;
+    width: 100%;
+    left: 0;
+    padding-bottom: 10px;
+    background: #fff;
+    bottom: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    opacity: 0;
+}
+.card:hover .cart-section {
+    bottom: -18%;
+    opacity: 1;
+}
+.service-overview p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 500;
+}
+footer .logo img {
+    width: 140px;
+}
+footer ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+footer input {
+    border: 0 !important;
+    border-bottom: 1px solid #00000042 !important;
+    border-radius: 0 !important;
+}
+
+/* color */
+.greenTheme {
+    color: #78a206 !important;
+}
+.themeBtn {
+    background-color: #78a206 !important;
+}
+.btn-size {
+    width: 45px;
+    height: 45px;
+}
+.btn-counter {
+    background-color: white !important;
+    color: #000 !important;
+}
+.counter-value {
+    background-color: transparent;
+    border: 0;
+    border-top: 1px solid #363f4d3d;
+    border-bottom: 1px solid #363f4d3d;
+    width: 50px;
+}
+.plus {
+    border-top: 1px solid #363f4d3d !important;
+    border-bottom: 1px solid #363f4d3d !important;
+    border-right: 1px solid #363f4d3d !important;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px !important;
+    background-color: transparent !important;
+    color: #000 !important;
+}
+.minus {
+    border-top: 1px solid #363f4d3d !important;
+    border-bottom: 1px solid #363f4d3d !important;
+    border-left: 1px solid #363f4d3d !important;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px !important;
+    background-color: transparent !important;
+    color: #000 !important;
+}
+.btn-200 {
+    width: 200px;
+}
+.pointer {
+    cursor: pointer;
+}
+.loader {
+    width: 180px;
+}
+.userDetails {
+    width: 200px;
+    position: relative;
+}
+.userIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.userIcon img {
+    width: 100%;
+}
+.details-account {
+    position: absolute;
+    padding: 10px 15px;
+    top: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 4px #0000008a;
+    right: 10px;
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 992px){
+    .border-right {
+        border-right: 1px solid #363f4d27;
+    }
+}
